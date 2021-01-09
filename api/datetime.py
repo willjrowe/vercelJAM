@@ -2,6 +2,9 @@
 #testing functionality
 from http.server import BaseHTTPRequestHandler
 from datetime import datetime
+import numpy
+import cv2
+import pytesseract
 
 class handler(BaseHTTPRequestHandler):
 
